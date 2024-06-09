@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  border: 3px solid black;
+  padding: 10px;
+  background-color:white;
+  margin: auto;
+  width :50%;
+  height:100%;
+  margin-top: 100px;
+  margin-bottom: 100px;  
+}
+.first{
+    color: blue;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding:25px 50px 25px 80px;
+    margin-left: 0px;
+    margin-top: 50px;
+    padding-left:7%;
+}
+.midone{
+    text-align: center;
+    margin: auto;
+  width: 85%;
+  height: 75%;
+  border: 0px;
+  padding: 10px;
+  background-color: white;
+}
+.one{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+td{
+    height:40px;
+    text-align: center;
+    font-size:12px;
+}
+th{
+    height:60px;
+    font-size:12px;
+    font-weight: bolder;
+}
+input{
+    border-radius: 5px;
+    border-color: lightgrey;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .step {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    margin-bottom: 2%;
+  }
+  
+  .step.active {
+    background-color: #140664;
+    color: white;
+  }
+  
+  .step.completed {
+    background-color: #140664;
+    color: white;
+    margin-bottom: 2%;
+  }
+  
+  .line {
+    width: calc(30% -0px);
+    height: 5px;
+    background-color: #008CBA;
+  }

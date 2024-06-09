@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    height: 7rem;
+}
+.header{
+  border: 3px solid black;
+  padding: 10px;
+  background-color:white;
+  margin: auto;
+  width :50%;
+  height:50%;
+  margin-top: 100px;
+  margin-bottom: 100px;  
+}
+.first{
+    color: blue;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding:25px 50px 25px 50px;
+    margin-left: 0%;
+    margin-top: 50px;
+    padding-left: 35px;;
+}
+.second{
+    color:gray;
+    font-size:smaller
+    
+}
+.ily-flow {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+ 
+}
+.upload-document {
+  margin-bottom: 8px;
+}
+
+.upload-document h2 {
+  margin-top: 0;
+}
+
+.upload-document ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.upload-document li {
+  margin-bottom: 0px;
+}
+
+.upload-document label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.upload-document input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.divs{
+    border:1px solid lightgray;
+    width: 96%;
+    height: 50%;
+    margin-top: -15px;
+}
+.sec{
+    margin-left: 22px;
+}
+label{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 14px;
+    padding-top: 0px;
+   }
+input{
+    padding-left: 85px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    
+}
+footer{
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.step {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ddd;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  margin-bottom: 0%;
+}
+
+.step.active {
+  background-color: #140664;
+  color: white;
+}
+
+.step.completed {
+  background-color: #140664;
+  color: white;
+  margin-bottom: 0%;
+}
+
+.line {
+  width: calc(30% -0px);
+  height: 5px;
+  background-color: #008CBA;
+}
